@@ -117,10 +117,10 @@ console.log(elijah)
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Binding - No context "this" will return the global object (window)
+  2. Implicit binding - obj.method look to the left (obj)
+  3. Explicit Binding - uses .call/.apply/.bind. 
+  4. New Binding - uses "new" keyword
 */
 
 
